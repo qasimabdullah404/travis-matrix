@@ -2,10 +2,13 @@ jobs:
   include:
     - os: windows
       arch: amd64
+      language: python
       script: true
     - os: osx
+      language: python
       script: true
     - os: linux
       dist: xenial
       arch: amd64
+      language: node_js
       script: true
