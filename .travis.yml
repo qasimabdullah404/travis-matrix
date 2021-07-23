@@ -1,0 +1,7 @@
+jobs:
+  include:
+    - os: windows
+      arch: amd64
+      script: true
+    - os: osx
+      script: true
