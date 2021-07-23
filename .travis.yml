@@ -5,3 +5,7 @@ jobs:
       script: true
     - os: osx
       script: true
+    - os: linux
+      dist: xenial
+      arch: amd64
+      script: true
